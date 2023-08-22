@@ -11,13 +11,13 @@ pipeline{
             }
         }
 
-        stage('cleaning the Repository'){
-            steps{
-                sh 'mvn clean'
-            }
+        // stage('cleaning the Repository'){
+        //     steps{
+        //         sh 'mvn clean'
+        //     }
             
 
-        }
+        // }
 
         stage('Build'){
             steps{
